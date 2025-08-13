@@ -6,7 +6,9 @@ This repository also contains an example notebook (`example.ipynb`) and a partia
 
 ## System Requirements
 
-All software dependencies to run the linear analysis is in the `requirements.txt` folder. To run the nonlinear analysis, additionally installing PyTorch and CUDA is required.
+All software dependencies to run the linear analysis is in the `requirements.txt` folder, which specifies version numbers and operating systems. To run the nonlinear analysis, additionally installing PyTorch and CUDA is required.
+
+Installation should take under 15 minutes. 
 
 ## Installation
 
@@ -20,7 +22,9 @@ All software dependencies to run the linear analysis is in the `requirements.txt
 
 ## Demo
 
-After following all installation instructions, and if the 3 data files (`.pickle`) are in the data folder, the demo script `example.ipynb` should be able to be run from the top. 
+After following all installation instructions, and if the 3 data files (`.pickle`) are in the data folder, the demo script `example.ipynb` should be able to be run from the top. The entire script should take <5 minutes.  
+
+This demo script outputs the linear regularization sweep for one actual recording session and one simulated session.
 
 ## Instructions for Use
 
