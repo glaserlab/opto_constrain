@@ -1,12 +1,12 @@
 # Overview
 
-This repository contains code used for analyses in the paper "Constraining inferences of across-region interactions using neural activity perturbations". 
+This repository contains code used for analyses in the paper "Constraining inference of across-region interactions using neural activity perturbations". 
 
 This repository also contains an example notebook (`example.ipynb`) and a partial dataset (pickle files in data) used to run examples of the main analyses used in the paper.
 
 ## System Requirements
 
-All software dependencies to run the linear analysis is in the `requirements.txt` folder, which specifies version numbers and operating systems. To run the nonlinear analysis, additionally installing PyTorch and CUDA is required.
+All software dependencies to run the linear analysis are in the `requirements.txt` folder, which specifies version numbers and operating systems. To run the nonlinear analysis, additionally installing PyTorch and CUDA is required, and a computer with a GPU is most likely required for reasonable runtimes. 
 
 Installation should take under 15 minutes. 
 
